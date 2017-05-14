@@ -1,22 +1,14 @@
-# pyorglib2
+# pyorg
 File Organizing library using Python
 
-#Description
+# Description
       This is a file organizing library which will organize the files with various formats present in a single folder
 
-#Installation
-      
-      Using pip
-      
-             pip install pyorglib2
-      
-      Download tar.gz from Pypi Repository
-      
-               https://pypi.python.org/pypi/pyorglib2/0.1
-      
-#Implementation
+# Installation
+* Clone or download the repository
+* Go to the folder and run `python setup.py install`
 
-      from pyorglib2 import pyorglib2
-      org = pyorglib2.organize()
-      org.organizer("Destination_Folder","Source_Folder",choice)  #choice may be 'copy' or 'move'
-      
+# Usage
+* Open the terminal
+* Navigate to the folder where the files are present
+* Run `pyorg <destination_folder>` or `pyorg --curr` to have current directory as the destination directory
