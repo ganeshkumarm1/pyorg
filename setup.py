@@ -18,7 +18,8 @@ setup(
         packages=["pyorg"],
         entry_points={
              'console_scripts':[
-             pyorg = pyorg.pyorg:main]
+             'pyorg = pyorg.pyorg:main'
+             ]
         },
         zip_safe=False
 )
